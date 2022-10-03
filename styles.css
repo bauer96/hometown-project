@@ -1,4 +1,61 @@
+/* Color Palette to use 
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/ 
+
 body {
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Electrolize', sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/torshov.jpg");;
+    background-size: cover;
+    height:700px;
+}
+
+#title {
+   margin: 5px 0 10px 0;
+    color: #F1FAEE;
+    
+    background-color: #1D3557;
+    padding: 10px 15px;
+    border-radius: 15px;
+    
+}
+
+#subtitle {
+    margin: 0;
+    color: #F1FAEE;
+  
+    background-color:#457B9D;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.activities-section {
     text-align: center;
+    color: #1d3557;
+    font-size: 20px;
+}
+
+.activities-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    
+ 
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
 }
