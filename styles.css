@@ -9,7 +9,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Electrolize', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 
@@ -42,20 +42,73 @@ body {
     border-radius: 15px;
 }
 .activities-section {
+   padding: 20px 0 20px 0;
     text-align: center;
     color: #1d3557;
-    font-size: 20px;
+    background-color: #F1FAEE;
 }
+
+.activities-header {
+   
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.active-title {
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+.active-info {
+    padding-top: -20px;
+}
+
 
 .activities-container {
     display: flex;
     align-items: center; 
-    justify-content: space-around;
-    
- 
+    justify-content: space-evenly;
 }
 
 img {
     width: 100px;
     border-radius: 50%;
+}
+
+
+.guide-card {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D3557;
+    color: #1D3557;
+}
+
+.guide-img {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.guide-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.guide-info {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.guide-owner {
+    
+    font-size: 24px;
 }
